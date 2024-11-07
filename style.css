@@ -1,0 +1,55 @@
+body {
+    color: rgb(119, 189, 189);
+    background: rgb(33, 53, 57);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(122, 155, 151);
+    padding: 20px;
+    font-size: 32px;
+}
+
+.texto {
+    background: rgb(33, 91, 84);
+    padding-bottom: 60px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.textinho {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.musiquinha{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.musica{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.musiquinha img{
+    opacity:0.5;
+    height:200px;
+}
+
+.musiquinha img:hover{
+    opacity:1.0;
+    border:1px solid black;
+}
